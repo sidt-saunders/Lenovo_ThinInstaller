@@ -1,0 +1,32 @@
+Creation date: 20240910
+Version: 1.0
+Date: 20240910
+Changes: Creation
+
+Version: 2.0
+Date: 20240911
+Changes: Removed self-destruct; can run from share
+
+Version: 2.1
+Date: 20240911
+Changes: Added colours to output
+
+Version: 2.1.1
+Date: 20240912
+Changes: Made some QOL changes
+
+Version: 2.2
+Date: 20240927
+Changes: Added invalid selection and copy failed functions; added suppress output and log for robocopy
+
+Version: 2.3
+Date: 20241004
+Changes: Fixed error with robocopy.exitcode where successful copy stilled showed as failed; removed colours from output, updated some write-host to write-warning and write-error
+
+Version: 3
+Date: 20241014
+Changes: Created a check for if script is being run on user or admin account, and copy Delete_ThinInstaller_Folder files to appropriate desktop, and hiding the .ps1 file
+
+Version: 3.1
+Date: 20241017
+Changes: Removed check for if user or admin, copying .bat file to Public Desktop so it shows on all accounts (Thanks Derek Knoper!); updated Delete_ThinInstaller_Folder.ps1 to reflect aforementioned changes
