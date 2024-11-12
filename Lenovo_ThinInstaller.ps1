@@ -10,7 +10,7 @@
 $hostname = hostname
 $FailCounter = 0
 $CopySuccessOrFail = -1
-$NetworkLocation = "\\USALPLATP01\DropBox\Sidt_Saunders"
+$NetworkLocation = "\\127.0.0.1"
 $Message = "Press any key to continue..."
 
 #----------
